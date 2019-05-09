@@ -1,19 +1,49 @@
 <html>
 <meta charset="utf-8">
 	<head>
-	<title> SCORPIONS </title>
-		
-	</head>
+		<title> SCORPIONS </title>
+		<style>
+			ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #333;
+			}
+
+			li {
+				float: left;
+			}
+
+			li a {
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+			}
+
+			li a:hover:not(.active) {
+				background-color: #111;
+			}
+
+			.active {
+				background-color: #528FD5;
+				}
+		</style>
+		</head>
 	<body>
-	<a href="index.html">Αρχική</a> 
-	<a href="φωτογραφίες.html">Φωτογραφίες</a>
-	<a href="πληροφορίες.html">Πληροφορίες</a>
-	<a href="E-SHOP.html">E-SHOP</a>
-	<a href="επικοινωνία.html">Επικοινωνία</a>
-	
-	
-	
-	
+		<p align="center"> 
+		<img  width="800px"  src="Pictures/scorpions.jpg"/> </p>
+		<hr>
+		
+		<ul>
+			<li><a href="index.html">Αρχική</a></li>
+			<li><a href="φωτογραφίες.html">Φωτογραφίες</a></li>
+			<li><a href="πληροφορίες.html">Πληροφορίες</a></li>
+			<li><a href="E-SHOP.html">E-SHOP</a>
+			<li><a class="active" href="επικοινωνία.html">Επικοινωνία</a>
+		</ul>
 		
 	</body>
 	
