@@ -1,6 +1,20 @@
 <html>
 <meta charset="utf-8">
 	<head>
+		<?php
+			$servername = "localhost";
+			$username = "manager";
+			$password = "123456";
+
+
+			$conn = mysqli_connect($localhost, $manager, $123456);
+
+
+			if (!$conn) {
+                die("Connection failed: " . mysqli_connect_error());
+			}
+			echo "Connected successfully";
+        ?>
 		<title> SCORPIONS </title>
 		<link rel="stylesheet" type="text/css" href="CSS File.css"/>
 	</head>
@@ -10,6 +24,12 @@
 			<li><a href="biography.html">Βιογραφικό</a></li>
 			<li><a class="active" href="E-SHOP.html">Ηλ.Κατάστημα</a></li>
 			<li><a href="Contact.html">Επικοινωνία</a></li>
+			<li style="float:right"><a href="New User.html">Νέος Χρήστης</a></li>
+			<li style="float:right"><a href="Login.html">Σύνδεση</a></li>
+			<br>
+			<br>
+			<br>
+			
 		</ul>
 
 		
